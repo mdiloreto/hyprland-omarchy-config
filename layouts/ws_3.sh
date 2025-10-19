@@ -1,1 +1,2 @@
-alacritty
+#!/bin/bash
+/opt/google/chrome/chrome  &
