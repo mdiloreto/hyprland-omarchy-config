@@ -1,1 +1,2 @@
-omarchy-launch-webapp https://youtube.com/
+#!/bin/Bash
+omarchy-launch-webapp https://youtube.com/ &
