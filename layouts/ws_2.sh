@@ -1,3 +1,3 @@
-#!/bin/bash1·
+#!/bin/bash
 warp-terminals &
-opt/google/chrome/google-chrome --app=https://chat.openai.com
+/opt/google/chrome/google-chrome --app=https://chat.openai.com &
