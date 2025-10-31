@@ -1,2 +1,8 @@
 #!/bin/bash
-/opt/warpdotdev/warp-terminal/warp --parent-pid=10374 --crash-recovery-mechanism=force-x11  &
+set -euo pipefail
+
+if command -v warp-terminal >/dev/null 2>&1; then
+    warp-terminal &
+else
+    /opt/warpdotdev/warp-terminal/warp &
+fi

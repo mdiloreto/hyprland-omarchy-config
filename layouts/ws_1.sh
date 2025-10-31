@@ -1,2 +1,4 @@
 #!/bin/bash
-/opt/visual-studio-code/code  &
+set -euo pipefail
+
+/opt/visual-studio-code/code &

@@ -1,2 +1,4 @@
 #!/bin/bash
-/opt/google/chrome/chrome  &
+set -euo pipefail
+
+/opt/google/chrome/chromium &

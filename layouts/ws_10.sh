@@ -1,2 +1,4 @@
 #!/bin/bash
-/opt/spotify/spotify --uri=%u  &
+set -euo pipefail
+
+/opt/spotify/spotify --uri=%u &
