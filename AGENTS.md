@@ -1,6 +1,6 @@
 # Repository Guidelines
 
-For overarching Omarchy conventions, review the root guide at `~/AGENTS.md` before contributing here.
+Mandatory: Review the root guide at `~/AGENTS.md` before contributing here.
 
 ## Project Structure & Module Organization
 This Hyprland profile keeps user overrides in this directory while upstream defaults stay in ~/.local/share/omarchy/default. `hyprland.conf` only wires sources; edit the override files (`bindings.conf`, `monitors.conf`, `input.conf`, `envs.conf`, `looknfeel.conf`, `autostart.conf`, `workspaces_layout.conf`) to change behavior. Auxiliary scripts live under `scripts/`, per-workspace layouts in `layouts/`, and any TypeScript snippets belong in `typescript/`.
