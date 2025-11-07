@@ -1,4 +1,4 @@
 #!/bin/bash
 set -euo pipefail
 
-omarchy-launch-webapp https://youtube.com/ &
+chromium --app=https://youtube.com &
