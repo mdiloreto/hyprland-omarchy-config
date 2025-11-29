@@ -9,3 +9,4 @@ fi
 
 # No autostart applications configured for this workspace.
 chromium &
+chromium --app=https://chat.openai.com &
