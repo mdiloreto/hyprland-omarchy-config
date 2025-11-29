@@ -1,4 +1,11 @@
 #!/bin/bash
 set -euo pipefail
 
-/opt/spotify/spotify --uri=%u &
+AUTOSTART_FLAG="${HOME}/.config/hypr/autostart.disabled"
+
+if [[ "${HYPR_DISABLE_AUTOSTART:-0}" == "1" || -f "${AUTOSTART_FLAG}" ]]; then
+    exit 0
+fi
+
+chromium --app=https://open.spotify.com &
+chromium --app=https://web.whatsapp.com &
