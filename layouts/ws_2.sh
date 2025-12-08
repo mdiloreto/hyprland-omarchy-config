@@ -8,4 +8,3 @@ if [[ "${HYPR_DISABLE_AUTOSTART:-0}" == "1" || -f "${AUTOSTART_FLAG}" ]]; then
 fi
 
 ghostty &
-chromium --app=https://chat.openai.com &
