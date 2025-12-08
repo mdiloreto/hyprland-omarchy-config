@@ -6,9 +6,9 @@ WAYBAR_SIGNAL="${WAYBAR_SIGNAL:-9}"
 
 emit_status() {
     if [[ -f "${STATE_FILE}" ]]; then
-        printf '{"text":"󰾆","tooltip":"Autostart disabled (Course Mode)","class":"disabled"}\n'
+        printf '{"text":"❌","tooltip":"Autostart disabled (Course Mode)","class":"disabled"}\n'
     else
-        printf '{"text":"󰐱","tooltip":"Autostart enabled","class":"enabled"}\n'
+        printf '{"text":"✅","tooltip":"Autostart enabled","class":"enabled"}\n'
     fi
 }
 
