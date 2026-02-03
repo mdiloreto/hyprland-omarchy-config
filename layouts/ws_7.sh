@@ -7,4 +7,5 @@ if [[ "${HYPR_DISABLE_AUTOSTART:-0}" == "1" || -f "${AUTOSTART_FLAG}" ]]; then
     exit 0
 fi
 
-$HOME/.local/bin/chromium &
+$HOME/.local/bin/chromium &&
+$HOME/.local/bin/firefox &

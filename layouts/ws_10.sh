@@ -7,5 +7,5 @@ if [[ "${HYPR_DISABLE_AUTOSTART:-0}" == "1" || -f "${AUTOSTART_FLAG}" ]]; then
     exit 0
 fi
 
-$HOME/.local/bin/chromium --app=https://open.spotify.com &
-$HOME/.local/bin/chromium --app=https://web.whatsapp.com &
+$HOME/.local/bin/chromium --app=https://calendar.google.com &
+$HOME/.local/bin/chromium --app=https://mail.google.com &
