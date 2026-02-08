@@ -14,3 +14,5 @@ echo "$(date '+%F %T') ws1 autostart" >> /tmp/hypr-workspace-hooks.log
 if command -v code >/dev/null 2>&1; then
     code &
 fi
+
+ghostty &
